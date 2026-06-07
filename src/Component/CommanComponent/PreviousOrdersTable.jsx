@@ -9,7 +9,7 @@ import {
   Wallet,
 } from "lucide-react";
 import { useState } from "react";
-import Tooltip from "./ToolTip";
+import Tooltip from "./Tooltip";
 import { formatCurrency } from "../Utiles/Currency";
 import TableSkeleton from "./TableSkeleton";
 
