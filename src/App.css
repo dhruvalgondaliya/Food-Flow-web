@@ -1,0 +1,132 @@
+:root {
+  --color-primary: #F5CA48;
+  --color-primary-hover: #F5CA48;
+  --color-white: #ffffff;
+  --color-dark: #1e1e1e;
+  --color-red: #e1012b;
+  --color-black: #000000;
+  --color-family: #203152;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 1279px) {
+  body {
+    background-color: #f7f4ef;
+    background-image: none;
+    background-blend-mode: normal;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    background-image: url("./assets/Body_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #00000009;
+    background-blend-mode: hue;
+  }
+}
+
+.bg-hero-pattern {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./assets/hero-bg.png");
+  background-blend-mode: hue;
+  background-color: #0000002a;
+}
+
+.reactangel {
+  width: 100%;
+  max-width: 495px;
+  min-height: 380px;
+  background-image: url("./assets/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 228px;
+  height: auto;
+}
+
+.main_header {
+  font-family: "Luckiest Guy";
+}
+
+.potlin {
+  font-family: "Poltawski Nowy";
+}
+
+.inter {
+  font-family: "Inter Tight";
+}
+
+.mealCard {
+  width: 100%;
+  max-width: 320px;
+  min-height: 149px;
+}
+
+.drinksCard {
+  width: 100%;
+  max-width: 320px;
+  min-height: 115px;
+}
+
+/* Back to top Button Animation key Frame */
+@keyframes wave {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+.animate-wave {
+  animation: wave 1.5s infinite;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .logo {
+    max-width: 180px;
+  }
+
+  .bg-hero-pattern {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .logo {
+    max-width: 180px;
+  }
+
+  .bg-hero-pattern {
+    min-height: 100vh;
+  }
+
+  .reactangel {
+    min-height: 330px;
+    background-image: none;
+    background-color: white;
+    box-shadow: 10px;
+  }
+}
+
+/* is category button css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
