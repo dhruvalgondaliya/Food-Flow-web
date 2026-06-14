@@ -20,12 +20,12 @@ const About = () => {
           <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
             <div className="rounded-xl border border-gray-100 bg-gray-50 px-4 py-3">
               <p className="font-semibold text-gray-900">Support phone</p>
-              <p className="text-gray-600">9313759955</p>
+              <p className="text-gray-600">6354296164</p>
             </div>
             <div className="rounded-xl border border-gray-100 bg-gray-50 px-4 py-3">
               <p className="font-semibold text-gray-900">Support email</p>
               <p className="text-gray-600 break-all">
-                chauhanparth6635@gmail.com
+                dhruvalgondaliya28@gmail.com
               </p>
             </div>
           </div>

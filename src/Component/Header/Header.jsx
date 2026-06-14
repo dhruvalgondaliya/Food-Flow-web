@@ -1,17 +1,7 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
-import {
-  Bell,
-  ChevronDown,
-  LogOut,
-  MapPin,
-  Menu,
-  Phone,
-  ShoppingCart,
-  User,
-  X,
-} from "lucide-react";
-import Logo from "../../assets/Logo.png";
+import {Bell,ChevronDown,LogOut,MapPin,Menu,Phone,ShoppingCart,User,X,} from "lucide-react";
+import Logo from "../../assets/foodFlow.png";
 import { useMenu } from "../../ContextProvider/MenuContext";
 import LogoutModal from "../CommanComponent/LogoutModal";
 import { useAlert } from "../../ContextProvider/AlertContext";
@@ -230,11 +220,8 @@ const Header = ({ cartCount, setCartCount }) => {
                 <img
                   src={Logo}
                   alt="Food Flow logo"
-                  className="w-28 sm:w-32 object-contain"
+                  className="w-40 sm:w-40 object-contain"
                 />
-                <span className="text-base sm:text-lg font-bold tracking-wide">
-                  Food Flow
-                </span>
               </div>
             </Link>
 
@@ -243,7 +230,7 @@ const Header = ({ cartCount, setCartCount }) => {
                 <Phone size={18} />
                 <div className="text-right leading-tight">
                   <p className="text-xs">Order In Now</p>
-                  <p className="font-semibold text-sm">9313759955</p>
+                  <p className="font-semibold text-sm">6354296164</p>
                 </div>
               </div>
 
@@ -344,7 +331,6 @@ const Header = ({ cartCount, setCartCount }) => {
                   alt="Food Flow logo"
                   className="w-24 object-contain"
                 />
-                <span className="font-bold">Food Flow</span>
               </Link>
               <button
                 type="button"

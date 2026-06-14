@@ -31,7 +31,7 @@ const faqItems = [
   {
     question: "How can I contact support?",
     answer:
-      "You can reach us at 9313759955 or email chauhanparth6635@gmail.com for any ordering or account help.",
+      "You can reach us at 6354296164 or email dhruvalgondaliya28@gmail.com for any ordering or account help.",
   },
 ];
 

@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import { useMenu } from "../../ContextProvider/MenuContext";
 import { getCategoryImageUrl } from "../Utiles/mediaUrl";
 import bg from "../../assets/footer-bg-1.png";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/foodFlow.png";
 
 const Footer = () => {
   const { categories = [] } = useMenu();
@@ -37,24 +37,21 @@ const Footer = () => {
                 <img
                   src={Logo}
                   alt=""
-                  className="h-12 w-auto object-contain sm:h-14"
+                  className="h-12 w-auto object-contain sm:h-24"
                 />
-                <span className="text-2xl font-bold tracking-tight sm:text-3xl">
-                  Food Flow
-                </span>
               </div>
               <p className="mt-5 max-w-sm text-sm leading-relaxed text-gray-300">
                 A moments of delivered on right time &amp; place
               </p>
               <a
-                href="tel:9313759955"
+                href="tel:6354296164"
                 className="mt-6 inline-flex items-center gap-3 rounded-full bg-black/50 px-4 py-3 ring-1 ring-white/15 transition hover:bg-black/70"
               >
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#F5CA48] text-gray-900">
                   <Phone className="h-5 w-5" strokeWidth={2.2} />
                 </span>
                 <span className="text-lg font-bold tracking-tight text-[#F5CA48]">
-                  9313759955
+                  6354296164
                 </span>
               </a>
             </div>
@@ -149,10 +146,10 @@ const Footer = () => {
                   <p className="flex items-center gap-2">
                     <Mail className="h-4 w-4 shrink-0 text-[#B52929]" />
                     <a
-                      href="mailto:chauhanparth6635@gmail.com"
+                      href="mailto:dhruvalgondaliya28@gmail.com"
                       className="break-all hover:text-white"
                     >
-                      chauhanparth6635@gmail.com
+                      dhruvalgondaliya28@gmail.com
                     </a>
                   </p>
                 </div>

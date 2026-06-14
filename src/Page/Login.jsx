@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import CommanInput from "../Component/CommanComponent/CommanInput";
 import { API_URL } from "../Component/Server/Server";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/FoodFlow.png";
 import { useState } from "react";
 import axios from "axios";
 import { useAlert } from "../ContextProvider/AlertContext";
