@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import CommanInput from "../Component/CommanComponent/CommanInput";
 import { API_URL } from "../Component/Server/Server";
-import Logo from "../assets/FoodFlow.png";
+import Logo from "../assets/FoodFlow-login.png";
 import { useState } from "react";
 import axios from "axios";
 import { useAlert } from "../ContextProvider/AlertContext";
@@ -72,7 +72,7 @@ function Login() {
             <img
               src={Logo}
               alt="Logo"
-              className="w-32 h-auto sm:w-40 md:w-48 lg:w-56 object-contain"
+              className="w-32 h-auto sm:w-40 md:w-48 object-contain"
             />
           </div>
 
