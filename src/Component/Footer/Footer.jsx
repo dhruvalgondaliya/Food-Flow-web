@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import { useMenu } from "../../ContextProvider/MenuContext";
 import { getCategoryImageUrl } from "../Utiles/mediaUrl";
 import bg from "../../assets/footer-bg-1.png";
-import Logo from "../../assets/foodFlow.png";
+import Logo from "../../assets/FoodFlow.png";
 
 const Footer = () => {
   const { categories = [] } = useMenu();

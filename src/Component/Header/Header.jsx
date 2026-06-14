@@ -1,7 +1,7 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import {Bell,ChevronDown,LogOut,MapPin,Menu,Phone,ShoppingCart,User,X,} from "lucide-react";
-import Logo from "../../assets/foodFlow.png";
+import Logo from "../../assets/FoodFlow.png";
 import { useMenu } from "../../ContextProvider/MenuContext";
 import LogoutModal from "../CommanComponent/LogoutModal";
 import { useAlert } from "../../ContextProvider/AlertContext";
